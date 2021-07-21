@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <div class="HolyGrail">
+    <header>#header</header>
+    <div class="wrap">
+      <nav class="left">aside</nav>
+      <main class="content"></main>
+      <aside class="right"> article</aside>
+    </div>
+    <footer>#footer</footer>
+  </div></html><style>
+  .HolyGrail {
+    text-align: center;
+    display: flex;
+    min-height: 40vh;
+    flex-direction: column;
+  }
+  .HolyGrail .wrap {
+    display: flex;
+    flex: 1;
+  }
+  .HolyGrail .content {
+    background: #eee;
+    flex: 1;
+  }
+  .HolyGrail .left,.HolyGrail .right {
+    background:lightgreen;
+    flex: 0 0 200px;
+  }
+  .HolyGrail header,.HolyGrail footer{
+    background:#999;
+    height: 50px;
+    line-height: 50px;
+  }
+  .HolyGrail .left {
+    background:salmon;
+  }</style>
