@@ -1,0 +1,34 @@
+
+  .body {
+display: flex;
+flex-direction: column;   
+ text-align: center;
+        min-height: 40vh;
+    
+  }
+.body.main,.body.header,.body.footer {
+	
+    display: flex;
+    flex: auto;
+  }
+  /*.body .content {
+    background: #eee;
+    flex: 1;*/
+  }
+.aside{
+    background:lightgreen;
+    flex:1;
+  background:salmon;
+  }
+ .article {
+  	background:yellow;
+  	 flex:3;}
+.header,.footer{
+    background:#999;
+    height: 50px;
+    line-height: 50px;
+  }
+ .aside {
+    background:salmon;
+  }
+  
